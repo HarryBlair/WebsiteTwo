@@ -1,0 +1,103 @@
+.title {
+    color: #02ccba;
+    text-decoration:underline wavy;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+body {
+    background-image: url("https://img.freepik.com/free-photo/smooth-white-brick-wall_1194-7431.jpg?t=st=1726752380~exp=1726755980~hmac=5cb5a29554695db4afe114ff8ab818cbd21b1085cec57cad3429eb0881bbf9b7&w=740"); 
+    background-size: 100% 120%;
+    background-attachment: fixed;
+}
+
+a:link {
+    color:green
+}
+
+a:hover {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 12px;
+    background-color: yellow;
+    color: red;
+}
+
+.mason {
+    color:darkgreen;
+    background-color: bisque;
+    border-style: solid;
+    border-color: black;
+    border-width:5px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-style: Bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.mason:hover {
+    background-color: darkgoldenrod;
+    color:salmon;
+}
+
+.image-container {
+    position: relative;
+}
+
+.image-container img {
+    float: right;
+    width: 200px;
+    height: 160px;
+    transition: opacity 0.3s ease;
+  }
+
+.image-container .text-overlay {
+    position: relative;
+    left: 200px;
+    float: right;
+    width: 200px;
+    height: 160px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    color: black;
+   /* Adjust text color as needed */
+    font-size: 18px; /* Adjust font size as needed */
+    text-align: center; /* Adjust text alignment as needed */
+  }
+
+.image-container:hover img {
+    opacity: 0;
+  }
+
+.image-container:hover .text-overlay {
+    opacity: 1;
+  }
+
+.smaller {
+    font-size: 65%;
+    font-style:italic;
+    margin-right: 250px;
+}
+
+#profile {
+    padding: 15px;
+    color: aliceblue;
+    background-color:cornflowerblue;
+    clear: both;
+    margin-right: 50%;
+}
+
+.leftscreen {
+    margin-right: 50%;
+    font-size: 94%;
+}
+
+#linkedin {
+    float: left;
+    margin-right: 10px;
+}
